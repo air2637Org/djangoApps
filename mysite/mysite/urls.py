@@ -21,5 +21,6 @@ urlpatterns = [
 
     url(r'^blog/', include('blog.urls', namespace='blog', app_name='blog')),
 
-    
+    url(r'^excel/', include('excel.urls', namespace='excel', app_name='excel')),
+
 ]
